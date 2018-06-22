@@ -1,0 +1,8 @@
+﻿  MainFrm.cpp
+c:\users\cmkm_\source\repos\mfcapplication4\mfcapplication4\mainfrm.cpp(47): error C2065: 'IDR_MAINFRAME': 선언되지 않은 식별자입니다.
+  MFCApplication4.cpp
+c:\users\cmkm_\source\repos\mfcapplication4\mfcapplication4\mfcapplication4.cpp(77): error C2065: 'IDP_OLE_INIT_FAILED': 선언되지 않은 식별자입니다.
+c:\users\cmkm_\source\repos\mfcapplication4\mfcapplication4\mfcapplication4.cpp(103): error C2065: 'IDR_MAINFRAME': 선언되지 않은 식별자입니다.
+c:\users\cmkm_\source\repos\mfcapplication4\mfcapplication4\mfcapplication4.cpp(160): error C2065: 'IDD_ABOUTBOX': 선언되지 않은 식별자입니다.
+  MFCApplication4View.cpp
+c:\users\cmkm_\source\repos\mfcapplication4\mfcapplication4\mfcapplication4view.cpp(34): error C2065: 'IDD_MFCAPPLICATION4_FORM': 선언되지 않은 식별자입니다.

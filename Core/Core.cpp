@@ -6,9 +6,9 @@
 
 #define N 20
 
-int RGB[N][N][N] = { ' ' };
+int RGB[N][N][N] = { ' ' }; //RGB값을 저장할 배열 생성
 
-using namespace cv;
+using namespace cv; //OpenCV를 사용할려면 필수 네임스페이스
 
 using namespace std;
 
@@ -19,9 +19,9 @@ void N1()
 
    Mat img; 
 
-   img = imread("1.png"); //이미지를 읽어오기
+   img = imread("1.png"); //이미지를 읽어와야함. 리소스 파일에 사진이 있어야함
 
-   int intensity_b = img.at<Vec3b>(41, 43)[0]; // blue channel
+   int intensity_b = img.at<Vec3b>(41, 43)[0]; // 푸른계열 
 
    int intensity_g = img.at<Vec3b>(41, 43)[1]; // green channel
 

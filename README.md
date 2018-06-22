@@ -9,4 +9,8 @@ http://webnautes.tistory.com/1132
 
 OpenCV 에러시 해결법
 
-SysWow폴더에 opencvworldxxx.dll, OpenCVWorlxxx.dll 파일을 
+SysWow폴더에 opencvworldxxx.dll, OpenCVWorlxxx.dll 파일을 넣는다.
+
+사용 언어 : C++
+
+

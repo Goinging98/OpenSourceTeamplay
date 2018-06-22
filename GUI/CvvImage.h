@@ -1,3 +1,5 @@
+//중요 파일 
+
 #pragma once
 #ifndef CVVIMAGE_CLASS_DEF
 #define CVVIMAGE_CLASS_DEF

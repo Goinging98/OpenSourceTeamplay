@@ -64,7 +64,7 @@ void CMFCApplication4Doc::Serialize(CArchive& ar)
 
 #ifdef SHARED_HANDLERS
 
-// 축소판 그림을 지원합니다.
+// 축소판 그림을 지원.
 void CMFCApplication4Doc::OnDrawThumbnail(CDC& dc, LPRECT lprcBounds)
 {
 	// 문서의 데이터를 그리려면 이 코드를 수정하십시오.
@@ -85,7 +85,7 @@ void CMFCApplication4Doc::OnDrawThumbnail(CDC& dc, LPRECT lprcBounds)
 	dc.SelectObject(pOldFont);
 }
 
-// 검색 처리기를 지원합니다.
+// 검색 처리기를 지원.
 void CMFCApplication4Doc::InitializeSearchContent()
 {
 	CString strSearchContent;

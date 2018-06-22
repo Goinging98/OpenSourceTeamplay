@@ -73,7 +73,7 @@ void  FillBitmapInfo( BITMAPINFO* bmi, int width, int height, int bpp, int origi
 		for( i = 0; i < 256; i++ )
 		{
 			palette[i].rgbBlue = palette[i].rgbGreen = palette[i].rgbRed = (BYTE)i;
-			palette[i].rgbReserved = 0;
+			palette[i].rgbReserved = 0; //rgb의 blue, green, red가 각각 팔레트를 차지한다. 
 		}
 	}
 }
